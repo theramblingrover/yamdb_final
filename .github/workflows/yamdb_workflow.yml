@@ -58,7 +58,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            sudo docker stop $(sudo docker ps -a -q)
+            sudo docker-compose down -v
+            # sudo docker stop $(sudo docker ps -a -q)
             sudo docker-compose rm web
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
