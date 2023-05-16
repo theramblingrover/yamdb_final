@@ -1,4 +1,4 @@
-https://github.com/theramblingrover/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+!(https://github.com/theramblingrover/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # Учебный проект "REST API YaMDb".
 ## Яндекс.Практикум
 
