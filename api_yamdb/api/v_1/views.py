@@ -1,3 +1,4 @@
+from api.v_1.permissions import IsAdmin
 from django.contrib.auth import get_user_model
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
@@ -13,8 +14,8 @@ from rest_framework.permissions import (IsAuthenticated,
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import AccessToken
-from api.v_1.permissions import IsAdmin
-from reviews.models import Category, Genre, Title, Review
+from reviews.models import Category, Genre, Review, Title
+
 from .filters import TitlesFilter
 from .permissions import IsAdminOrReadOnly, IsAuthorAdminModeratorOrReadOnly
 from .serializers import (CategorySerializer, CommentSerializer,
