@@ -26,6 +26,15 @@ git clone git@github.com:theramblingrover/infra_sp2.git
 ```
 cd infra_sp2
 ```
+В файл ./infra/.env Поместить переменные настройки СУБД. Пример:
+```
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+DB_HOST=db
+DB_PORT=5432
+```
 - Выполнить запуск контейнеров:
 ```
 make start
