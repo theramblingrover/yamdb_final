@@ -20,11 +20,11 @@
 ### Запуск
 - Клонировать репозиторий
 ```
-git clone git@github.com:theramblingrover/infra_sp2.git
+git clone git@github.com:theramblingrover/yamdb_final.git
 ```
 - Перейти в корневую папку проекта:
 ```
-cd infra_sp2
+cd yambd_final
 ```
 В файл ./infra/.env Поместить переменные настройки СУБД. Пример:
 ```
