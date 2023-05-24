@@ -60,5 +60,3 @@ make stop
 - Dmitriy839
 - IamAlexandr
 - theramblingrover
-
-Проект развернут на http://158.160.107.25
